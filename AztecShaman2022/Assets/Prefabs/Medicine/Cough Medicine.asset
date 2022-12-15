@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cc369ec1ab8f44b68fb874275f883ca, type: 3}
+  m_Name: Cough Medicine
+  m_EditorClassIdentifier: 
+  name: Cough Elixir
+  icon: {fileID: 21300000, guid: 22450460630d8462e9aeb1e89c2ab387, type: 3}
+  itemDescription: Iron Lung Elixir
+  result: {fileID: 11400000, guid: fa2ae8cd8cc217d4d8fb02c11228d203, type: 2}
+  ingredients:
+  - item: {fileID: 11400000, guid: 3965c400654dd4011b0cd25979272f7b, type: 2}
+    amount: 1
+  - item: {fileID: 11400000, guid: 6804c816cdf0be94e84b6013d783a568, type: 2}
+    amount: 1
+  isCrafted: 0
