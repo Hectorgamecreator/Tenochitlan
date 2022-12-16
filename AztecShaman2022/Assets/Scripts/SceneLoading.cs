@@ -31,6 +31,10 @@ namespace HectorRodriguez
         {
             if(SceneManager.GetActiveScene().name == "StartScene")
             {
+                LoadScene("InstructionScene");
+            }
+            else if (SceneManager.GetActiveScene().name == "InstructionScene")
+              {
                 LoadScene("MainGame");
             }
 
